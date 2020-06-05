@@ -15,6 +15,18 @@
     #page-home main{
         align-items: center;
     }
+    #page-home main h1{
+        font-size: 38px;
+    }
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+    #page-create-point .itens-grid{
+        grid-template-columns: 1fr 1fr;/*duas linhas de 1/2*/
+    }
+    #page-create-point form .field-group{
+        display: block;
+    }
 }
 @media(min-width:1700px){
     #page-home{

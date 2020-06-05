@@ -34,7 +34,7 @@ body::after{
     display: flex;
 }
 main{
-    margin-top: 48px;
+    margin: 48px 0;
 }
 main h4{
     font-weight: normal;
@@ -50,6 +50,7 @@ main .card img{
     width: 100%;
     height: 150px;
     border-radius: 8px 8px 0 0;
+    object-fit: cover;
 }
 main .card h1{
     font-size: 36px;
